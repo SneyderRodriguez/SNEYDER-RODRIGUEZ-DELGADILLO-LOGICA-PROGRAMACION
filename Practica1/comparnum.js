@@ -1,4 +1,4 @@
-/*PRACTICA DE LOGICA COMPARANDO NUMEROS */
+/*PRÁCTICA DE LOGICA COMPARANDO NUMEROS */
 const prompt = require("prompt-sync")();
 
 let num1 = Number(prompt("Ingresa el primer número "));
