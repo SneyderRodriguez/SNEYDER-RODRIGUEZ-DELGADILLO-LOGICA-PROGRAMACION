@@ -1,4 +1,4 @@
-/*PRÁCTICA DE LOGICA COMPARANDO NUMEROS */
+/*PRÁCTICA DE CONVERSIÓN DE TEMPERATURAS */
 const prompt = require("prompt-sync")();
 
 let unitemp = prompt("selecciona la unidad de temperatura a convertir (F), (K):  ").toUpperCase();
@@ -22,3 +22,16 @@ if (isNaN(celsius)) {
             break;
     }
 }
+/*=================================================
+            TAL CUAL ESTÁ EN EL EJERCICIO
+  =================================================
+ */
+/*const celsius = Number(prompt("🕵️‍♀️Ingresa un número:  "));
+if (isNaN(celsius)) {
+    console.log("⚠  Debes ingresar un número");
+} else {
+    const F = (celsius * 9 / 5) + 32;
+    const K = celsius + 273.15;
+    console.log(`°C: ${celsius} = °F ${F}`);
+    console.log(`°C: ${celsius} = °K ${K}`);
+}*/
